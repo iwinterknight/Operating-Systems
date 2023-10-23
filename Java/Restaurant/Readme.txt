@@ -1,5 +1,4 @@
 Name : Sunit Singh
-Course : CSE 6431 : Operating Systems
 Date : Sep 30, 2023
 
 Instructions :
