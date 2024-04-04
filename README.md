@@ -6,9 +6,7 @@ which are the tables in the restaurant, the cooks available to cook the order, a
 available to cook the food (we assume that there is no contention on other possible resources,
 like servers to take orders and serve the orders).
 
-<p align="center">
-  ![Restaurant](http://github.com/iwinterknight/Operating-Systems/Restaurant.gif)
-</p>
+![Restaurant](http://github.com/iwinterknight/Operating-Systems/Restaurant.gif)
 
 Eaters in the restaurant place their orders when they get seated. These orders are then handled
 by available cooks. Each cook handles one order at a time. A cook handles an order by using
