@@ -29,7 +29,7 @@ approach the restaurant and what they order, the number of tables in the restaur
 can only be as many eaters as there are tables at a time; other eaters must wait for a free
 table before placing their order), and the number of cooks in the kitchen that process orders.
 
-# ---------------------------------------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 # Thread Level Parallelism
 Designing programming solution for matrix multiplication that exploit multiple threads executing in parallel.
 
