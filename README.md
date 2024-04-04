@@ -7,7 +7,7 @@ available to cook the food (we assume that there is no contention on other possi
 like servers to take orders and serve the orders).
 
 <p align="center">
-  ![](https://github.com/iwinterknight/Operating-Systems/Restaurant.gif)
+  ![](http://github.com/iwinterknight/Operating-Systems/Restaurant.gif)
 </p>
 
 Eaters in the restaurant place their orders when they get seated. These orders are then handled
