@@ -1,12 +1,12 @@
 This repo contains some classical problems in Operating Systems.
 
-# Restaurant Scheduling Problem
+# 1. Restaurant Scheduling Problem
 A restaurant requires careful coordination of resources,
 which are the tables in the restaurant, the cooks available to cook the order, and the machines
 available to cook the food (we assume that there is no contention on other possible resources,
 like servers to take orders and serve the orders).
 <p align="center">
-  <img width="789" alt="Restaurant" src="https://github.com/iwinterknight/Operating-Systems/blob/master/Restaurant.gif">
+  <img width="789" alt="Restaurant" src="https://github.com/iwinterknight/Operating-Systems/assets/blob/master/Restaurant.gif">
 </p>
 
 Eaters in the restaurant place their orders when they get seated. These orders are then handled
@@ -30,7 +30,7 @@ can only be as many eaters as there are tables at a time; other eaters must wait
 table before placing their order), and the number of cooks in the kitchen that process orders.
 
 # ------------------------------------------------------------------------------
-# Thread Level Parallelism
+# 2. Thread Level Parallelism
 Designing programming solution for matrix multiplication that exploit multiple threads executing in parallel.
 
 Let A be an n × m matrix and B be an m × p matrix. Then C = AB yields C, an n × p matrix. The code below illustrates an algorithm for matrix multiplication C = AB.
@@ -55,7 +55,7 @@ Steps:
 3. Perform matrix multiplication using thread level parallelism. Main thread should create n threads that will multiply the matrices; each thread terminates when it completes its task. Matrix C stores the result of this calculation. Display the time needed to perform the calculation. If the system has at least two processors, time improvements should be observable. Compare matrix C with matrix C1 to verify if the parallelized matrix multiplication result concurs with the single-thread matrix multiplication execution.
 
 # ------------------------------------------------------------------------------
-# Producer Consumer Problem with Bounded Buffer
+# 3. Producer Consumer Problem with Bounded Buffer
 Design a programming solution to the bounded-buffer problem using producer and consumer processes. The solution uses three semaphores: `empty` and `full`, which count the number of empty and full slots in the buffer, and `mutex`, which is a binary (or mutually exclusive) semaphore that protects the actual insertion or removal of items in the buffer. Standard counting semaphores will be used for empty and full, and, rather than a binary semaphore, a mutex lock will be used to represent mutex. The producer and consumer—running as separate threads—will move items to and from a buffer that is synchronized with these empty, full, and mutex structures.
 
 The Buffer: Internally, the buffer will consist of a fixed-size array of type `buffer_item`. The array of `buffer_item` objects will be manipulated as a circular queue. 
@@ -64,7 +64,7 @@ Producer and Consumer Threads: The producer thread will alternate between sleepi
 
 
 # ------------------------------------------------------------------------------
-# Shell with persistent Command History
+# 4. Shell with persistent Command History
 1. **Shell Interface** : Design a simple shell interface that accepts user commands, creates a child process, and executes the user commands in the child process. The shell interface provides users a prompt after which the next command is entered. The example below illustrates the prompt sh> and the user’s next command: cat prog.c. This command displays the file prog.c content on the terminal using the UNIX cat command.
 <p align="center">
   <img width="340" alt="shell_command" src="https://github.com/iwinterknight/Operating-Systems/assets/37212007/e6c172d6-344b-4472-bec4-5a6fe9cfa235">
