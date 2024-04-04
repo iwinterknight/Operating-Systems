@@ -67,7 +67,7 @@ Producer and Consumer Threads: The producer thread will alternate between sleepi
 # 4. Shell with persistent Command History
 1. **Shell Interface** : Design a simple shell interface that accepts user commands, creates a child process, and executes the user commands in the child process. The shell interface provides users a prompt after which the next command is entered. The example below illustrates the prompt sh> and the user’s next command: cat prog.c. This command displays the file prog.c content on the terminal using the UNIX cat command.
 <p align="center">
-  <img width="340" alt="shell_command" src="https://github.com/iwinterknight/Operating-Systems/assets/37212007/e6c172d6-344b-4472-bec4-5a6fe9cfa235">
+  <img width="740" alt="shell_command" src="https://github.com/iwinterknight/Operating-Systems/assets/37212007/e6c172d6-344b-4472-bec4-5a6fe9cfa235">
 </p>
 
 2. **History Feature for Shell Commands Replay** : Add a history feature to the UNIX shell. The history feature allows users to access up to ten most recently entered commands. These commands will be numbered starting at 1 and will continue to grow larger even past 10 (e.g., if the user has entered 35 commands, the ten most recent commands should be numbered 26 to 35).
