@@ -6,7 +6,7 @@ which are the tables in the restaurant, the cooks available to cook the order, a
 available to cook the food (we assume that there is no contention on other possible resources,
 like servers to take orders and serve the orders).
 <p align="center">
-  <img width="789" alt="Restaurant" src="https://github.com/iwinterknight/Operating-Systems/assets/blob/master/Restaurant.gif">
+  <img width="789" alt="Restaurant" src="https://github.com/iwinterknight/Operating-Systems/blob/master/assets/Restaurant.gif">
 </p>
 
 Eaters in the restaurant place their orders when they get seated. These orders are then handled
