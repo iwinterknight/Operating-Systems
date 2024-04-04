@@ -29,7 +29,7 @@ approach the restaurant and what they order, the number of tables in the restaur
 can only be as many eaters as there are tables at a time; other eaters must wait for a free
 table before placing their order), and the number of cooks in the kitchen that process orders.
 
-# ------------------------------------------------------------------------------
+
 # 2. Thread Level Parallelism
 Designing programming solution for matrix multiplication that exploit multiple threads executing in parallel.
 
@@ -54,7 +54,7 @@ Steps:
 
 3. Perform matrix multiplication using thread level parallelism. Main thread should create n threads that will multiply the matrices; each thread terminates when it completes its task. Matrix C stores the result of this calculation. Display the time needed to perform the calculation. If the system has at least two processors, time improvements should be observable. Compare matrix C with matrix C1 to verify if the parallelized matrix multiplication result concurs with the single-thread matrix multiplication execution.
 
-# ------------------------------------------------------------------------------
+
 # 3. Producer Consumer Problem with Bounded Buffer
 Design a programming solution to the bounded-buffer problem using producer and consumer processes. The solution uses three semaphores: `empty` and `full`, which count the number of empty and full slots in the buffer, and `mutex`, which is a binary (or mutually exclusive) semaphore that protects the actual insertion or removal of items in the buffer. Standard counting semaphores will be used for empty and full, and, rather than a binary semaphore, a mutex lock will be used to represent mutex. The producer and consumer—running as separate threads—will move items to and from a buffer that is synchronized with these empty, full, and mutex structures.
 
@@ -63,7 +63,7 @@ The Buffer: Internally, the buffer will consist of a fixed-size array of type `b
 Producer and Consumer Threads: The producer thread will alternate between sleeping for a random period of time and inserting a random integer into the buffer. Random numbers will be produced using the `rand_r`(unsigned int *seed) function, which produces random integers between 0 and RAND_MAX safely in multithreaded processes. The consumer will also sleep for a random period of time and, upon awakening, will attempt to remove an item from the buffer. 
 
 
-# ------------------------------------------------------------------------------
+
 # 4. Shell with persistent Command History
 1. **Shell Interface** : Design a simple shell interface that accepts user commands, creates a child process, and executes the user commands in the child process. The shell interface provides users a prompt after which the next command is entered. The example below illustrates the prompt sh> and the user’s next command: cat prog.c. This command displays the file prog.c content on the terminal using the UNIX cat command.
 <p align="center">
